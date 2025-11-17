@@ -1,0 +1,237 @@
+* {
+ color: #727070;
+}
+
+body{
+  margin:0;
+  padding:0;
+  background-color: rgb(7, 7, 7);
+}
+
+.titulo{    
+  color: #ffffff;
+  font-family: "Momo Signature", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header.cbrio{
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  position:sticky;
+  top:0;
+}
+
+.menu-de-link{
+  margin:0 auto;
+  display:flex;
+  justify-content: flex;
+  align-items:center;
+  gap:16px;
+  padding:14px 20px;
+}
+
+
+.logo{
+  width:46px;
+  height:auto;
+  border-radius:6px;
+  object-fit:cover;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.6);
+}
+
+.nav{
+  display:flex;
+  gap:10px;
+  margin-left:10px;
+  align-items:center;
+  flex:1;
+}
+
+.nav-link{
+  text-decoration: none;
+  text-decoration:none;
+  padding:8px 12px;
+  border-radius:8px;
+  font-weight:600;
+  display:inline-block;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+  transform:translateY(-2px);
+  background: linear-gradient(90deg, rgba(255,70,85,0.06), rgba(255,255,255,0.02));
+  outline:none;
+}
+
+
+.btn-menu{
+  background:transparent;
+  border:1px solid rgba(255,255,255,0.04);
+  padding:8px 10px;
+  border-radius:8px;
+  font-size:18px;
+  cursor:pointer;
+  display:none;
+}
+
+.div-apresenta{
+  margin:32px auto;
+  padding:36px 20px;
+  background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  align-items:flex-start;
+}
+
+.titulo{
+  color: #727070;
+  letter-spacing: -0.02em;
+  margin-bottom:6px;
+}
+
+.subtitulo{
+  color: #8d4949;
+  font-size:1rem;
+}
+
+.secao{
+  margin:24px auto;
+  padding:20px;
+}
+
+.secao h2{
+  margin-bottom:14px;
+  font-size:1.2rem;
+}
+
+/* tentei deixar cada card um do lado do outro mais e muito trampo */
+.desc-agentes,
+.desc-mapas{
+  display:grid;
+  gap:16px;
+}
+
+.card-agente{
+  padding:12px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,0.03);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+  transition:transform .18s ease, box-shadow .18s ease;
+  text-align:center;
+}
+.card-agente:hover{
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+.card-agente img{
+  width:100%;
+  height:190px;
+  display:block;
+  border-radius:8px; 
+  justify-items: center;  
+  justify-content: center;
+  object-position:center;    /* n sei nem mais oq o fznd nessa bosta aqui, q n fica certo, n importa o quanto mexa no height ainda fica torta ou esticada essa merda de img😡😡😡😡*/
+  background-color:#0b0b0b; 
+}
+
+/* aqui por encrivel q pare;a foi de boas so a parte do  background:linear-gradient que e meia chata
+, mas ja to acustumado fiz varias vezes aqui ja */
+.mapa-card{
+  background:linear-gradient(180deg, rgba(255,70,85,0.03), rgba(255,255,255,0.01));
+  padding:10px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,0.03);
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+.mapa-card img{
+  width:120px;
+  height:80px;
+  object-fit:cover;
+  border-radius:8px;
+}
+.mapa-card p{
+  font-size:0.95rem;
+}
+
+
+.desc-final{
+  padding:18px;
+  border-radius:10px;
+  border:1px solid rgba(255,255,255,0.02);
+}
+
+/* Footer */
+.rodape{
+  margin-top:30px;
+  padding:18px 0;
+  border-top:1px solid rgba(255,255,255,0.03);
+  background:linear-gradient(180deg, transparent, rgba(0,0,0,0.2));
+}
+.direitosRSVD{
+  margin:0 auto;
+  padding:0 20px;
+  font-size:0.95rem;
+}
+
+a:focus, button:focus{
+  outline: 3px solid rgba(255,70,85,0.14);
+  outline-offset:3px;
+  border-radius:8px;
+}
+
+/* esse foi meu trabalho decidi fzr um outro novo  pq valorant e um jogo que gosto muito 
+tanto que ja peguei to 1200 Br nele | eu acho que do site tirando as img que ficou meio esticado e comprimidas, o resto ficou legalzinho*/
+
+
+/*  Feramentas utiizadas
+https://fonts.google.com/
+https://github.com/?locale=pt-BR
+As img peguei do google mesmo n foi de nenhum site expecifico
+e tb alguns sites de valorant para pegar informaçoes sobre os agentes e mapas etc
+https://playvalorant.com/pt-br/maps/
+*/
+
+
+/*
+____11________________1___________________________
+___¶¶¶¶_____________¶¶¶¶__________________________
+___¶¶_¶¶¶1_______1¶¶¶1¶¶__________________________
+___¶¶__¶¶¶¶¶¶¶¶¶¶¶¶¶__¶¶__________________________
+___¶¶_1¶¶¶¶¶¶¶¶¶¶¶¶¶1_¶¶__________________________
+____1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶__________________________
+____¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶___________________________
+____¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶___________________________
+____¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶__________________________
+_____¶¶¶11¶¶¶¶¶¶¶¶¶¶_¶¶¶__________________________
+____¶¶_¶1___¶¶¶¶¶__1¶1_¶¶¶________________________
+____¶¶__1¶¶11¶¶¶¶1¶¶___1¶¶¶1______________________
+____¶¶_____¶¶¶¶¶¶¶1____1¶¶¶¶¶¶1___________________
+____¶¶_______11_¶______¶¶¶¶¶¶¶¶¶__________________
+____1¶1_______________¶¶¶¶¶¶¶¶¶¶¶¶________________
+_____¶¶_______________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_____________
+______1¶_____________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶1___________
+_______1¶1_______11_¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶__________
+_________¶1_____¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_________
+_________¶¶__¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶1________
+_________¶1_¶¶1¶¶¶¶__¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶________
+_________¶1_¶¶1¶¶¶¶¶1_¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶1______
+________¶¶¶_¶1¶¶¶¶¶_¶¶_¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶1______
+________¶¶¶_¶_¶¶¶¶¶1_¶¶_1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶1_____
+________¶¶¶_¶_¶¶¶¶¶1__11_1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_____
+________1¶¶_¶_¶¶¶¶¶_¶¶¶¶¶¶¶¶11¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶____
+_______¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶____
+_______¶¶¶¶¶1¶¶¶¶¶1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶1_¶¶¶¶¶¶____
+_____________________________________¶¶¶¶¶¶¶¶¶____
+______________________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_____
+___________________¶¶¶1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶______
+_________________¶¶1__1¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_________
+_________________1¶¶11¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶1____________
+____________________1¶¶¶¶¶¶¶¶¶1___________________
+*/
