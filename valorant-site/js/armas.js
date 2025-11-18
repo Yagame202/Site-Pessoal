@@ -1,0 +1,1 @@
+alert("Essa e parte das armas do Valorant!");
