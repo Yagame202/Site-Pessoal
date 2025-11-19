@@ -1,5 +1,72 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #1f1c2c, #5b5a60);
+    background: linear-gradient(to right, #ececee, #c6c6c7);
+}
+
+.div-tituloP1 {
+    text-align: center;
+    padding: 18px 12px 6px;
+}
+.voltar {
+    margin: 12px 0 0 12px;
+    color: #111;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.voltar a {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #4b4747;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.div-tituloP1 h3 {
+    margin: 0;
+    font-size: 22px;
+    color: #111;
+}
+
+.secao-ams {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 16px;
+  max-width: 1300px;
+  margin: 16px auto;
+  padding: 12px;
+}
+
+.secao-ams > div {
+  background: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.secao-ams img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    margin: 8px 0;
+}
+
+.secao-ams h4 {
+    margin: 6px 0;
+    font-size: 18px;
+}
+
+.secao-ams p {
+    margin: 6px 0 0;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.rodape {
+    text-align: center;
+    padding: 12px 0 24px;
 }
