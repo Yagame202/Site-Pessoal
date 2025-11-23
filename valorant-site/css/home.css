@@ -57,8 +57,8 @@ header.cbrio{
   display:inline-block;
 }
 
-.nav-link:hover,
-.nav-link:focus{
+.nav-link,
+.nav-link{
   transform:translateY(-2px);
   background: linear-gradient(90deg, rgba(255,70,85,0.06), rgba(255,255,255,0.02));
   outline:none;
@@ -125,8 +125,8 @@ header.cbrio{
   transition:transform .18s ease, box-shadow .18s ease;
   text-align:center;
 }
-.card-agente:hover{
-  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+.card-agente{
+  box-shadow: 0 20px 40px rgba(79, 41, 80, 0.6);
 }
 .card-agente img{
   width:100%;
